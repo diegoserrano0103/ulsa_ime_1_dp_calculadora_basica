@@ -57,7 +57,12 @@ g++ -Wall -Wextra -std=c++17 main.cpp -o calculadora
 <!-- Pega aquí lo que muestra tu programa en pantalla con una división donde primero escribes 0 como segundo número. -->
 
 ```
-_____
+_____Calculadora Basica
+Suma: 1, Resta: 2, Multiplicacion:3 y Division: 4
+Ingresa el numero de operacion que deseas realizar:4
+Ingrese Primer Valor: 0
+Ingrese Segundo Valor: 3
+0 / 3 = 0
 ```
 
 ## 8. De la receta al código (Fase 3)
@@ -78,13 +83,13 @@ _____
 ## 9. Experimentos (Fase 3)
 
 **Experimento A: sin el `break` del `case 1`, ¿qué mostró el programa con 8 + 5? ¿Qué te dijo el compilador? ¿Por qué pasó?**
-_____
+_____se ejecuto la operación de la resta
 
 **Experimento B: sin la validación del Paso 6, ¿qué mostró el programa con 5 / 0? ¿Tiene sentido?**
-_____
+_____el programa se interrumpe 
 
 **Experimento C (opcional): con `a` y `b` de tipo `int`, ¿qué resultado dio 7 / 2? ¿Te avisó el compilador?**
-_____
+_____Da 3 por que esta leyendo enteros y no decimales
 
 ## 10. Tabla de pruebas (Fase 4)
 
@@ -127,32 +132,32 @@ _____
 ## 13. Reflexión final
 
 **¿Qué aprendí con esta práctica?**
-_____
+_____Que hacer algo que usamos todos los días puede ser hecho en un par de horas 
 
 **Ahora que terminé, ¿qué cambiaría de mi proceso?**
-_____
+_____creo que cambiaria el orden de las operaciones y sus restricciones
 
 **¿Qué fue lo más difícil y cómo lo resolví?**
-_____
+_____en la division que el segundo valor sea 0 
 
 **¿Qué pregunta me quedó sin responder?**
 _____
 
 **¿Fue más fácil programar a partir de una receta ajena que de la mía? ¿Por qué?**
-_____
+_____No me guío mucho por la receta sino que trato de visualizar el proceso en mi mente 
 
 **Si yo hubiera diseñado la receta, ¿qué le cambiaría?**
-_____
+_____creo que no cambiaria nada por que esta  bien hecha
 
 ## 14. Lista de verificación antes de entregar (Fase 5)
 
 - [ ] Llené las secciones 7 a 13 (no quedan `_____`)
-- [ ] No modifiqué las secciones 1 a 6 ni la receta de `RECETA.md`
-- [ ] Cada bloque de `main.cpp` tiene su comentario `// Paso N`
-- [ ] Mi programa compila sin advertencias
-- [ ] Probé todos los casos de la tabla
-- [ ] Hice los Experimentos A y B y dejé el código correcto al terminar
-- [ ] No modifiqué `utilerias.h`
+- [si ] No modifiqué las secciones 1 a 6 ni la receta de `RECETA.md`
+- [ si] Cada bloque de `main.cpp` tiene su comentario `// Paso N`
+- [ si] Mi programa compila sin advertencias
+- [ si] Probé todos los casos de la tabla
+- [si ] Hice los Experimentos A y B y dejé el código correcto al terminar
+- [si ] No modifiqué `utilerias.h`
 - [ ] Hice al menos 4 commits con mensajes claros
-- [ ] Hice `git push` y verifiqué mi fork en GitHub
-- [ ] Entregué el enlace de mi fork en Classroom
+- [si ] Hice `git push` y verifiqué mi fork en GitHub
+- [si ] Entregué el enlace de mi fork en Classroom
